@@ -1,0 +1,26 @@
+{
+  "name": "trabajos_alumnos",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "gh-pages": "^5.0.0",
+    "mocha": "^10.2.0",
+    "sass": "^1.62.1",
+    "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "@supabase/supabase-js": "^2.21.0",
+    "bootstrap": "^5.2.3",
+    "bootswatch": "^5.2.3",
+    "build": "^0.1.4"
+  }
+}
