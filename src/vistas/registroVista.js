@@ -76,7 +76,7 @@ export default {
             await Perfil.create(perfilData)
             alert('Usuario creado con éxito')
             // Cargamos la página login
-            window.location.href = '/#/login'
+            window.location.href = 'ZeusSorroch_trabajos_alumnos/#/login'
           } catch (error) {
             console.log(error)
             alert('Error al crear usuario')

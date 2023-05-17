@@ -66,7 +66,7 @@ export default {
 
               // y ocultamos item 'login' para mostrar item 'logout'
               // Cagamos la página home
-              window.location.href = '/#/home'
+              window.location.href = '/ZeusSorroch_trabajos_alumnos/#/home'
             } catch (error) {
               alert('No se ha podido iniciar sesión ' + error)
             }

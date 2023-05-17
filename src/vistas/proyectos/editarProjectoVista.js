@@ -92,7 +92,7 @@ export default {
 
       proyecto.update()
 
-      window.location.href = '/#/proyectos'
+      window.location.href = '/ZeusSorroch_trabajos_alumnos/#/proyectos'
     })
   }
 }

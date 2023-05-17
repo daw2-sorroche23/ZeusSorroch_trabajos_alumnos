@@ -41,7 +41,7 @@ export default {
         tabla += `
       <tr>
         <td>
-          <img src="/assets/imagenes/proyectos/proyecto.png" width="100" alt="" data-id="${proyecto.id}" class="detalle"/>
+          <img src="/img/imagenes/proyectos/proyecto.png" width="100" alt="" data-id="${proyecto.id}" class="detalle"/>
         </td>
         <td>${nombreAutor[0].nombre_usuario}</td>
         <td>${proyecto.nombre}</td>
@@ -53,14 +53,14 @@ export default {
             type="button"
             class="btn bg-danger detalle"
           >
-          <img  data-id="${proyecto.id}" class="detalle w-100" src="/assets/iconos/icons8-acerca-de.svg" width="20" alt="" />
+          <img  data-id="${proyecto.id}" class="detalle w-100" src="/img/iconos/icons8-acerca-de.svg" width="20" alt="" />
           </button>
           <button
             data-id="${proyecto.id}"
             type="button"
             class="btn bg-info editar mt-1"
           >
-            <img src="/assets/iconos/icons8-editar.svg" width="20" alt="" class="editar" data-id="${proyecto.id}"/>
+            <img src="/img/iconos/icons8-editar.svg" width="20" alt="" class="editar" data-id="${proyecto.id}"/>
           </button>
 
           <button
@@ -68,7 +68,7 @@ export default {
               type="button"
               class="btn bg-danger borrar mt-1"
           >
-            <img  data-id="${proyecto.id}" class="borrar w-100" src="/assets/iconos/icons8-basura-llena.svg" width="20" alt="" />
+            <img  data-id="${proyecto.id}" class="borrar w-100" src="/img/iconos/icons8-basura-llena.svg" width="20" alt="" />
           </button>
         </td>
       </tr>
@@ -92,18 +92,18 @@ export default {
               if (seguro) {
                 await Proyecto.delete(id)
               }
-              window.location.href = '/#/proyectos'
+              window.location.href = '/ZeusSorroch_trabajos_alumnos/#/proyectos'
             } catch (error) {
               alert('No se han podido borrar el proyecto' + error)
             }
           }
 
           if (e.target.classList.contains('editar')) {
-            window.location.href = '/#/editarProyecto/' + id
+            window.location.href = '/ZeusSorroch_trabajos_alumnos/#/editarProyecto/' + id
           }
 
           if (e.target.classList.contains('detalle')) {
-            window.location.href = '/#/detalleProyecto/' + id
+            window.location.href = '/ZeusSorroch_trabajos_alumnos/#/detalleProyecto/' + id
           }
         })
       }

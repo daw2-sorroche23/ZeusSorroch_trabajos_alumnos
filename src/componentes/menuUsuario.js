@@ -14,7 +14,7 @@ export const menuUsuario = {
           <span id="emailUsuarioLogueado" class="pe-3 text-dark"></span>
             <img
               id="imgAvatar"
-              src="/assets/avatar.svg"
+              src="/img/avatar.svg"
               alt="Logo"
               width="30"
               height="30"
@@ -171,12 +171,12 @@ export const menuUsuario = {
         // Cerramos sesión utilizando el método de logout de nuestra clase User
         await User.logout()
         header.script()
-        // Cargamos la página home
-        window.location.href = '/#/home'
+        // Cargamos la página home poniendo la ruta de nuestro repositorio GitHub
+        window.location.href = '/ZeusSorroch_trabajos_alumnos/#/home'
       })
     }
     else{
-      const imgAvatar = '/assets/avatar.svg'
+      const imgAvatar = '/img/avatar.svg'
       // Insertamos la foto del avatar
       document.querySelector('#imgAvatar').src = imgAvatar
       // Insertamos el email del usuario
