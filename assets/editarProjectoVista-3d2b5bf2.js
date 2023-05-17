@@ -1,5 +1,5 @@
-import { P as Proyecto } from "./proyecto-ab4a4620.js";
-import "./main-9623b5ba.js";
+import { P as Proyecto } from "./proyecto-e3f995b4.js";
+import "./main-fb627027.js";
 const editarProjectoVista = {
   template: `
     <div
@@ -86,7 +86,7 @@ const editarProjectoVista = {
       proyecto.descripcion = descripcionProyecto.value;
       proyecto.value = enlaceProyecto.value;
       proyecto.update();
-      window.location.href = "/#/proyectos";
+      window.location.href = "/ZeusSorroch_trabajos_alumnos/#/proyectos";
     });
   }
 };

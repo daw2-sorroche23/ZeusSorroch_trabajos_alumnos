@@ -1,4 +1,4 @@
-import { s as supabase } from "./main-9623b5ba.js";
+import { s as supabase } from "./main-fb627027.js";
 class Proyecto {
   // Mapping de propiedades de la tabla perfiles
   constructor(id = null, created_at = null, nombre = null, descripcion = null, nota = null, user_id = null, enlace = null) {

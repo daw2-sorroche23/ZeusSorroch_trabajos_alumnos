@@ -1,5 +1,5 @@
-import { s as supabase, P as Perfil } from "./main-9623b5ba.js";
-import { P as Proyecto } from "./proyecto-ab4a4620.js";
+import { s as supabase, P as Perfil } from "./main-fb627027.js";
+import { P as Proyecto } from "./proyecto-e3f995b4.js";
 class Comentario {
   // Mapping de propiedades de la tabla perfiles
   constructor(id = null, created_at = null, comentario2 = null, proyecto_id = null, user_id = null) {
@@ -114,7 +114,7 @@ const detalleProyectoVista = {
         <div class="comentario d-flex flex-wrap align-item-top bg-dark p-3">
           
             <div class="w-100 d-flex">
-              <img id="imgPerfilLogueado" src="/assets/avatar.svg" alt="us" class="border me-3 mt-1" style="width:50px;height:50px;">
+              <img id="imgPerfilLogueado" src="./img/avatar.svg" alt="us" class="border me-3 mt-1" style="width:50px;height:50px;">
               <textarea id="nuevoComentario" class="m-1 form-control h-75" placeholder="Escribe un comentario..." required></textarea>
             </div>
             

@@ -1,4 +1,4 @@
-import { U as User, P as Perfil } from "./main-9623b5ba.js";
+import { U as User, P as Perfil } from "./main-fb627027.js";
 const registroVista = {
   template: `
     <div
@@ -72,7 +72,7 @@ const registroVista = {
         };
         await Perfil.create(perfilData);
         alert("Usuario creado con éxito");
-        window.location.href = "/#/login";
+        window.location.href = "ZeusSorroch_trabajos_alumnos/#/login";
       } catch (error) {
         console.log(error);
         alert("Error al crear usuario");
